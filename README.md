@@ -1,6 +1,8 @@
 ## Before start reading:
 **IMPORTANT: ALL EXPLOIT STATUS ARE TAKEN FROM THE WEBSITE https://whatexploitsare.online/ BEFORE REPORTING A ERROR ABOUT STATUS, PLEASE, CHECK THE WEBSITE**
 # ForLua: About
+* Version: 0.1
+* Dev: ss.spooky.ss#0003
 ## How it works
 ### Get Status
 It uses the website https://whatexploitsare.online/ to get all the exploits status. The script send a request to the website, and the script uses the website JSON to find your script status.
@@ -17,7 +19,7 @@ It has a table with a lot of links for each exploit, when you use `:GetDownloadL
 ## Database
 ### Status Database
 
-Everyhting inside https://whatexploitsare.online/ you can use it in `:GetStatus()`, example `:GetStatus("Roblox", false)`
+Everyhting inside https://whatexploitsare.online/ you can use it in `:GetStatus()`, example `:GetStatus("ROBLOX", false)`
 
 ### Download Database
 
