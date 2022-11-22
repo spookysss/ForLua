@@ -23,6 +23,14 @@ function lib:GetStatus(exploit, rn)
 	else
 		for y,v in data do
 			if v[exploit] then
+				local ft = v[exploit]
+				if ft.updated == 2 then
+					ft.updated = "issues_reported"
+				elseif ft.updated == 3 then
+					ft.updated = "API_outage"
+				elseif ft.updated == 4 then
+					ft.updated = "in_testing"
+				end
 				if rn then
 					return {[exploit] = v[exploit]}
 				else
@@ -57,7 +65,7 @@ function lib:GetDownloadLink(wrd, exploit)
 		KRNLNEW = "https://k-storage.com/krnl_beta.exe",
 		KRNLOLD = "https://k-storage.com/krnl_bootstrapper.exe",
 		Electron = "https://ryos.best/download.php",
-		Oxygen = "https://github.com/iDevastate/Oxygen-v2/blob/main/oxygen_u.zip",
+		Oxygen = "https://raw.githubusercontent.com/iDevastate/Oxygen-v2/main/oxygen_u.zip",
 		Fluxus = "https://linkvertise.com/152666/FluxusV7Installer/1",
 		RoWare = "https://script-ware.com/roware",
 		Celestial = "https://cdn.discordapp.com/attachments/983508416855162890/1006602540168777748/Build_8-9-22.rar",
