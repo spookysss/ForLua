@@ -56,9 +56,6 @@ function lib:GetDownloadLink(wrd, exploit)
 	local downloads = {
 		KRNLNEW = "https://k-storage.com/krnl_beta.exe",
 		KRNLOLD = "https://k-storage.com/krnl_bootstrapper.exe",
-		ScriptWareM = "",
-		ScriptWareV2 = "",
-		ScriptWareV1 = "",
 		Electron = "https://ryos.best/download.php",
 		Oxygen = "https://github.com/iDevastate/Oxygen-v2/blob/main/oxygen_u.zip",
 		Fluxus = "https://linkvertise.com/152666/FluxusV7Installer/1",
