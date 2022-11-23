@@ -37,6 +37,13 @@ Everyhting inside https://whatexploitsare.online/ you can use it in `:GetStatus(
 
 ## GetStatus
 
+### Setup
+
+First of all, insert this code into your script
+
+```lua
+local ForLua = loadstring(game:HttpGet(("https://raw.githubusercontent.com/spookysss/ForLua/main/forlua.lua"), true))()
+
 ### Requesting an exploit status
 
 You should build something like this
@@ -49,7 +56,7 @@ The first value will be you exploit name, while the second value will be a boole
 
 Input:
 ```lua
-print("ForLua:GetStatus("KRNL", true)")
+print(ForLua:GetStatus("KRNL", true))
 ```
 Output:
 ```lua
