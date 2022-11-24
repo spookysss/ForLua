@@ -102,3 +102,5 @@ function lib:GetDownloadLink(wrd, exploit)
 
 	return checkError()
 end
+
+return lib
