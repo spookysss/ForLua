@@ -43,6 +43,7 @@ First of all, insert this code into your script
 
 ```lua
 local ForLua = loadstring(game:HttpGet(("https://raw.githubusercontent.com/spookysss/ForLua/main/forlua.lua"), true))()
+```
 
 ### Requesting an exploit status
 
